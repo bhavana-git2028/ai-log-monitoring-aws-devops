@@ -19,7 +19,9 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
           script: |
             cd ai-log-monitoring-aws-devops
             git pull origin main
             bash scripts/run_ai_monitor.sh
+
