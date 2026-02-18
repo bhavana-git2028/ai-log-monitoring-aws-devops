@@ -1,0 +1,6 @@
+INFO Application started successfully
+WARNING Disk usage is at 75%
+ERROR Database connection failed
+INFO User login successful
+ERROR Timeout while calling API
+WARNING Memory usage high
